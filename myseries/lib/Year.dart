@@ -32,8 +32,6 @@ class YearPageState extends State<YearPage> {
     setState(() {});
   }
 
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -47,7 +45,7 @@ class YearPageState extends State<YearPage> {
               child: CircularProgressIndicator(),
             )
           : GridView.count(
-              crossAxisCount: 2,
+              crossAxisCount: 1,
               children: pokeHub.pokemon
                   .map((poke) => Padding(
                         padding: const EdgeInsets.all(2.0),
@@ -70,9 +68,9 @@ class YearPageState extends State<YearPage> {
                                 children: <Widget>[
                                   Container(
                                     height: MediaQuery.of(context).size.height *
-                                        0.10,
-                                    width:
-                                        MediaQuery.of(context).size.width * 0.19,
+                                        0.30,
+                                    width: MediaQuery.of(context).size.width *
+                                        0.90,
                                     decoration: BoxDecoration(
                                         image: DecorationImage(
                                             fit: BoxFit.cover,
@@ -94,7 +92,6 @@ class YearPageState extends State<YearPage> {
                       ))
                   .toList(),
             ),
-    
     );
   }
 }

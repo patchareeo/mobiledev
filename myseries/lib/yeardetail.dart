@@ -28,53 +28,53 @@ class YearDetail extends StatelessWidget {
                     style:
                         TextStyle(fontSize: 25.0, fontWeight: FontWeight.bold),
                   ),
-                  Text("👉 ${pokemon.height}"),
+                  Text("เรื่องย่อ  ${pokemon.height}"),
                   Text("....${pokemon.weight}...."),
-                  Text(
-                    "ปีสมพงศ์",
-                    style: TextStyle(fontWeight: FontWeight.bold),
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: pokemon.type
-                        .map((t) => FilterChip(
-                            backgroundColor: Colors.amber,
-                            label: Text(t),
-                            onSelected: (b) {}))
-                        .toList(),
-                  ),
-                  Text("ธาตุประจำปี",
-                      style: TextStyle(fontWeight: FontWeight.bold)),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: pokemon.nextEvolution == null
-                        ? <Widget>[Text("This is the final form")]
-                        : pokemon.nextEvolution
-                            .map((n) => FilterChip(
-                                  backgroundColor: Colors.green,
-                                  label: Text(
-                                    n.name,
-                                    style: TextStyle(color: Colors.white),
-                                  ),
-                                  onSelected: (b) {},
-                                ))
-                            .toList(),
-                  ),
-                  Text("มิ่งขวัญโชคลาบ",
-                      style: TextStyle(fontWeight: FontWeight.bold)),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: pokemon.weaknesses
-                            .map((n) => FilterChip(
-                                  backgroundColor: Colors.blue,
-                                  label: Text(
-                                    n,
-                                    style: TextStyle(color: Colors.white),
-                                  ),
-                                  onSelected: (b) {},
-                                ))
-                            .toList(),
-                  )
+                  // Text(
+                  //   "ปีสมพงศ์",
+                  //   style: TextStyle(fontWeight: FontWeight.bold),
+                  // ),
+                  // Row(
+                  //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  //   children: pokemon.type
+                  //       .map((t) => FilterChip(
+                  //           backgroundColor: Colors.amber,
+                  //           label: Text(t),
+                  //           onSelected: (b) {}))
+                  //       .toList(),
+                  // ),
+                  // Text("ธาตุประจำปี",
+                  //     style: TextStyle(fontWeight: FontWeight.bold)),
+                  // Row(
+                  //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  //   children: pokemon.nextEvolution == null
+                  //       ? <Widget>[Text("This is the final form")]
+                  //       : pokemon.nextEvolution
+                  //           .map((n) => FilterChip(
+                  //                 backgroundColor: Colors.green,
+                  //                 label: Text(
+                  //                   n.name,
+                  //                   style: TextStyle(color: Colors.white),
+                  //                 ),
+                  //                 onSelected: (b) {},
+                  //               ))
+                  //           .toList(),
+                  // ),
+                  // Text("มิ่งขวัญโชคลาบ",
+                  //     style: TextStyle(fontWeight: FontWeight.bold)),
+                  // Row(
+                  //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  //   children: pokemon.weaknesses
+                  //       .map((n) => FilterChip(
+                  //             backgroundColor: Colors.blue,
+                  //             label: Text(
+                  //               n,
+                  //               style: TextStyle(color: Colors.white),
+                  //             ),
+                  //             onSelected: (b) {},
+                  //           ))
+                  //       .toList(),
+                  // )
                 ],
               ),
             ),
