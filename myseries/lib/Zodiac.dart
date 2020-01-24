@@ -35,7 +35,7 @@ class ZodiacPageState extends State<ZodiacPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey,
+      backgroundColor: Colors.pink[100],
       appBar: AppBar(
         title: Text("ชอบที่สุด 10/10"),
         backgroundColor: Colors.red[300],
@@ -85,7 +85,7 @@ class ZodiacPageState extends State<ZodiacPage> {
                                   )
                                 ],
                               ),
-                              color: Colors.pink[100],
+                              color: Colors.white24,
                             ),
                           ),
                         ),

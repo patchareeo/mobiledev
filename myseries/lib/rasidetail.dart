@@ -49,7 +49,7 @@ class PokeDetail extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: pokemon.weaknesses
                         .map((t) => FilterChip(
-                            backgroundColor: Colors.blue[200],
+                            backgroundColor: Colors.blue[300],
                             label: Text(
                               t,
                               style: TextStyle(color: Colors.white),
