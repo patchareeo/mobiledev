@@ -1,38 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:myseries/home.dart';
-import 'package:splashscreen/splashscreen.dart';
+
+import 'splash_page.dart';
 
 void main() {
   runApp(new MaterialApp(
-    home: new Myseries(),
+    home: new MyApp(),
   ));
 }
 
-class Myseries extends StatefulWidget {
-  @override
-  _MyseriesState createState() => new _MyseriesState();
-}
-
-class _MyseriesState extends State<Myseries> {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return new SplashScreen(
-        seconds: 5,
-        navigateAfterSeconds: new MyApp(),
-// title: new Text(
-// 'Welcome In SplashScreen',
-// style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
-// ),
-        image: new Image.asset('assets/icons/thisLove.png'),
-        title: Text(
-          'Honey series',
-          style:
-              TextStyle(fontWeight: FontWeight.bold, height: 1.5, fontSize: 30),
+    return MaterialApp(
+        title: 'Flutter Demo',
+        theme: ThemeData(
+          primarySwatch: Colors.cyan,
         ),
-        backgroundColor: Colors.white70,
-        styleTextUnderTheLoader: new TextStyle(),
-        photoSize: 100.0,
-        onClick: () => print("Flutter Egypt"),
-        loaderColor: Colors.black);
+        home: SplashPage());
   }
 }
