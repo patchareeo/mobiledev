@@ -13,7 +13,7 @@ class ZodiacPage extends StatefulWidget {
 
 class ZodiacPageState extends State<ZodiacPage> {
   var url =
-      "https://raw.githubusercontent.com/chadaporn29797/tiktry/master/rasi.json";
+      "https://raw.githubusercontent.com/patchareeo/mobiledev/master/myseries/assets/icons/rasi.json";
 
   PokeHub pokeHub;
 
