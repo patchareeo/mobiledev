@@ -13,7 +13,7 @@ class YearPage extends StatefulWidget {
 
 class YearPageState extends State<YearPage> {
   var url =
-      "https://raw.githubusercontent.com/chadaporn29797/tiktry/master/year.json";
+      "https://raw.githubusercontent.com/patchareeo/mobiledev/master/myseries/assets/icons/year.json";
 
   PokeHub pokeHub;
 
