@@ -28,7 +28,7 @@ class PokeDetail extends StatelessWidget {
                     style:
                         TextStyle(fontSize: 25.0, fontWeight: FontWeight.bold),
                   ),
-                  Text("ช่วงวัน: ${pokemon.height}"),
+                  Text("ช่วงวัน${pokemon.height}"),
                   Text("....${pokemon.weight}...."),
                   Text(
                     "สีที่ถูกโฉลก",
@@ -57,23 +57,23 @@ class PokeDetail extends StatelessWidget {
                             onSelected: (b) {}))
                         .toList(),
                   ),
-                  Text("ดาวประจำราศี",
-                      style: TextStyle(fontWeight: FontWeight.bold)),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: pokemon.nextEvolution == null
-                        ? <Widget>[Text("This is the final form")]
-                        : pokemon.nextEvolution
-                            .map((n) => FilterChip(
-                                  backgroundColor: Colors.green,
-                                  label: Text(
-                                    n.name,
-                                    style: TextStyle(color: Colors.white),
-                                  ),
-                                  onSelected: (b) {},
-                                ))
-                            .toList(),
-                  )
+                  // Text("ดาวประจำราศี",
+                  //     style: TextStyle(fontWeight: FontWeight.bold)),
+                  // Row(
+                  //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  //   children: pokemon.nextEvolution == null
+                  //       ? <Widget>[Text("This is the final form")]
+                  //       : pokemon.nextEvolution
+                  //           .map((n) => FilterChip(
+                  //                 backgroundColor: Colors.green,
+                  //                 label: Text(
+                  //                   n.name,
+                  //                   style: TextStyle(color: Colors.white),
+                  //                 ),
+                  //                 onSelected: (b) {},
+                  //               ))
+                  //           .toList(),
+                  // )
                 ],
               ),
             ),

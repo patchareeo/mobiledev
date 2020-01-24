@@ -13,7 +13,7 @@ class ZodiacPage extends StatefulWidget {
 
 class ZodiacPageState extends State<ZodiacPage> {
   var url =
-      "https://github.com/patchareeo/mobiledev/blob/master/myseries/assets/icons/rasi.json";
+      "https://raw.githubusercontent.com/patchareeo/mobiledev/master/myseries/assets/icons/rasi.json";
 
   PokeHub pokeHub;
 
@@ -35,10 +35,10 @@ class ZodiacPageState extends State<ZodiacPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.orange[400],
+      backgroundColor: Colors.grey,
       appBar: AppBar(
-        title: Text("Zodiac"),
-        backgroundColor: Colors.orange,
+        title: Text("ชอบที่สุด 10/10"),
+        backgroundColor: Colors.red[300],
       ),
       body: pokeHub == null
           ? Center(
@@ -68,9 +68,9 @@ class ZodiacPageState extends State<ZodiacPage> {
                                 children: <Widget>[
                                   Container(
                                     height: MediaQuery.of(context).size.height *
-                                        0.14,
+                                        0.30,
                                     width: MediaQuery.of(context).size.width *
-                                        0.28,
+                                        0.90,
                                     decoration: BoxDecoration(
                                         image: DecorationImage(
                                             fit: BoxFit.cover,
@@ -85,7 +85,7 @@ class ZodiacPageState extends State<ZodiacPage> {
                                   )
                                 ],
                               ),
-                              color: Colors.orange[300],
+                              color: Colors.pink[50],
                             ),
                           ),
                         ),
