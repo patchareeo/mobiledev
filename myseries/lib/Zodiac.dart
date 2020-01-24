@@ -85,7 +85,7 @@ class ZodiacPageState extends State<ZodiacPage> {
                                   )
                                 ],
                               ),
-                              color: Colors.pink[50],
+                              color: Colors.pink[100],
                             ),
                           ),
                         ),

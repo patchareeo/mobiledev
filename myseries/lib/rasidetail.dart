@@ -28,28 +28,28 @@ class PokeDetail extends StatelessWidget {
                     style:
                         TextStyle(fontSize: 25.0, fontWeight: FontWeight.bold),
                   ),
-                  Text("ช่วงวัน${pokemon.height}"),
+                  Text("รีวิวจากใจ ${pokemon.height}"),
                   Text("....${pokemon.weight}...."),
-                  Text(
-                    "สีที่ถูกโฉลก",
-                    style: TextStyle(fontWeight: FontWeight.bold),
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: pokemon.type
-                        .map((t) => FilterChip(
-                            backgroundColor: Colors.amber,
-                            label: Text(t),
-                            onSelected: (b) {}))
-                        .toList(),
-                  ),
-                  Text("สิ่งที่เชื่อมโยงกับคนราศีนี้",
+                  // Text(
+                  //   "สีที่ถูกโฉลก",
+                  //   style: TextStyle(fontWeight: FontWeight.bold),
+                  // ),
+                  // Row(
+                  //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  //   children: pokemon.type
+                  //       .map((t) => FilterChip(
+                  //           backgroundColor: Colors.amber,
+                  //           label: Text(t),
+                  //           onSelected: (b) {}))
+                  //       .toList(),
+                  // ),
+                  Text("นักแสดงนำ",
                       style: TextStyle(fontWeight: FontWeight.bold)),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: pokemon.weaknesses
                         .map((t) => FilterChip(
-                            backgroundColor: Colors.red,
+                            backgroundColor: Colors.blue[200],
                             label: Text(
                               t,
                               style: TextStyle(color: Colors.white),
