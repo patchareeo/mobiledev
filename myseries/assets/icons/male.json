@@ -53,8 +53,8 @@
       ],
       "next_evolution": [
         {
-          "num": "",
-          "name": ""
+          "num": "002",
+          "name": "การศึกษา / Education : Central Academy of Drama (ปักกิ่ง)"
         }
       ]
     },
@@ -78,12 +78,12 @@
         1.58
       ],
       "weaknesses": [
-        "การศึกษา: Chongqing Technology and Business University"
+        "การศึกษา: Business University"
       ],
       "next_evolution": [
         {
-          "num": "",
-          "name": ""
+          "num": "003",
+          "name": "วงดนตรี: X NINE"
         }
       ]
     },
@@ -107,7 +107,7 @@
         1.58
       ],
       "weaknesses": [
-        "ความสามารถพิเศษ : เต้นแบบ Locking และ Krumping, บีทบ็อกซ์, โยโย่"
+        "ความสามารถพิเศษ : เต้นแบบ Locking,บีทบ็อกซ์,โยโย่"
       ],
       "next_evolution": [
         {
@@ -182,7 +182,7 @@
       "type": [
         "เกิดวันที่ 26 ธันวาคม พ.ศ. 2536"
       ],
-      "height": "สูง : 188 cm. หนัก : 60 kg.เลือดกรุ๊ป : B",
+      "height": "สูง : 188 cm. หนัก : 60 kg.",
       "weight": "อาชีพ : นักแสดง นักร้อง",
       "candy": "Bulbasaur Candy",
       "candy_count": 25,
@@ -194,12 +194,12 @@
         1.58
       ],
       "weaknesses": [
-        "นักแสดงสังกัด 华策影视 (Zhejiang Huace Film & TV)"
+        "นักแสดงสังกัด(Zhejiang Huace Film & TV)"
       ],
       "next_evolution": [
         {
-          "num": "",
-          "name": ""
+          "num": "007",
+          "name": "เลือดกรุ๊ป : B"
         }
       ]
     },
@@ -223,12 +223,12 @@
         1.58
       ],
       "weaknesses": [
-        "การศึกษา : Beijing Sport University (ด้านการเต้น)"
+        "การศึกษา : Beijing Sport University"
       ],
       "next_evolution": [
         {
-          "num": "",
-          "name": ""
+          "num": "008",
+          "name": "ผลงาน : เริ่มงานแสดงครั้งแรกในปี 2017"
         }
       ]
     }

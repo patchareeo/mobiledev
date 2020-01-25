@@ -14,7 +14,7 @@ class MalePage extends StatefulWidget {
 
 class MalePageState extends State<MalePage> {
   var url =
-      "https://raw.githubusercontent.com/chadaporn29797/tiktry/master/year.json";
+      "https://raw.githubusercontent.com/patchareeo/mobiledev/master/myseries/assets/icons/male.json";
 
   PokeHub pokeHub;
 
@@ -39,14 +39,14 @@ class MalePageState extends State<MalePage> {
       backgroundColor: Colors.pink[100],
       appBar: AppBar(
         title: Text("ดาราชายที่ชื่นชอบ"),
-        backgroundColor: Colors.pink[800],
+        backgroundColor: Colors.grey[600],
       ),
       body: pokeHub == null
           ? Center(
               child: CircularProgressIndicator(),
             )
           : GridView.count(
-              crossAxisCount: 2,
+              crossAxisCount: 1,
               children: pokeHub.pokemon
                   .map((poke) => Padding(
                         padding: const EdgeInsets.all(2.0),
@@ -69,9 +69,9 @@ class MalePageState extends State<MalePage> {
                                 children: <Widget>[
                                   Container(
                                     height: MediaQuery.of(context).size.height *
-                                        0.10,
+                                        0.40,
                                     width: MediaQuery.of(context).size.width *
-                                        0.19,
+                                        0.60,
                                     decoration: BoxDecoration(
                                         image: DecorationImage(
                                             fit: BoxFit.cover,
@@ -86,7 +86,7 @@ class MalePageState extends State<MalePage> {
                                   )
                                 ],
                               ),
-                              color: Colors.redAccent[100],
+                              color: Colors.yellowAccent[50],
                             ),
                           ),
                         ),

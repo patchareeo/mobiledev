@@ -12,10 +12,10 @@ class MaleActor extends StatelessWidget {
             height: MediaQuery.of(context).size.height / 1.5,
             width: MediaQuery.of(context).size.width - 25,
             left: 12.0,
-            top: MediaQuery.of(context).size.height * 0.13,
+            top: MediaQuery.of(context).size.height * 0.15,
             child: Card(
               shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(15.0),
+                borderRadius: BorderRadius.circular(2.0),
               ),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -31,45 +31,43 @@ class MaleActor extends StatelessWidget {
                   Text("👉 ${pokemon.height}"),
                   Text("....${pokemon.weight}...."),
                   Text(
-                    "ปีสมพงศ์",
+                    "☆",
                     style: TextStyle(fontWeight: FontWeight.bold),
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: pokemon.type
                         .map((t) => FilterChip(
-                            backgroundColor: Colors.amber,
+                            backgroundColor: Colors.white,
                             label: Text(t),
                             onSelected: (b) {}))
                         .toList(),
                   ),
-                  Text("ธาตุประจำปี",
-                      style: TextStyle(fontWeight: FontWeight.bold)),
+                  Text("☆", style: TextStyle(fontWeight: FontWeight.bold)),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: pokemon.nextEvolution == null
                         ? <Widget>[Text("This is the final form")]
                         : pokemon.nextEvolution
                             .map((n) => FilterChip(
-                                  backgroundColor: Colors.green,
+                                  backgroundColor: Colors.white,
                                   label: Text(
                                     n.name,
-                                    style: TextStyle(color: Colors.white),
+                                    style: TextStyle(color: Colors.black),
                                   ),
                                   onSelected: (b) {},
                                 ))
                             .toList(),
                   ),
-                  Text("มิ่งขวัญโชคลาบ",
-                      style: TextStyle(fontWeight: FontWeight.bold)),
+                  Text("☆", style: TextStyle(fontWeight: FontWeight.bold)),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: pokemon.weaknesses
                         .map((n) => FilterChip(
-                              backgroundColor: Colors.blue,
+                              backgroundColor: Colors.white,
                               label: Text(
                                 n,
-                                style: TextStyle(color: Colors.white),
+                                style: TextStyle(color: Colors.black),
                               ),
                               onSelected: (b) {},
                             ))
@@ -97,10 +95,10 @@ class MaleActor extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.red[300],
+      backgroundColor: Colors.orangeAccent,
       appBar: AppBar(
         elevation: 0.0,
-        backgroundColor: Colors.red[300],
+        backgroundColor: Colors.orangeAccent,
         title: Text(pokemon.name),
       ),
       body: bodyWidget(context),
