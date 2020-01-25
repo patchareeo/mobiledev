@@ -1,19 +1,20 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
+import ' maleactor.dart';
 import 'like.dart';
-import 'likeis.dart';
+import 'maleactor.dart';
 
-class ZodiacPage extends StatefulWidget {
+class MalePage extends StatefulWidget {
   @override
-  ZodiacPageState createState() {
-    return new ZodiacPageState();
+  MalePageState createState() {
+    return new MalePageState();
   }
 }
 
-class ZodiacPageState extends State<ZodiacPage> {
+class MalePageState extends State<MalePage> {
   var url =
-      "https://raw.githubusercontent.com/patchareeo/mobiledev/master/myseries/assets/icons/like.json";
+      "https://raw.githubusercontent.com/chadaporn29797/tiktry/master/year.json";
 
   PokeHub pokeHub;
 
@@ -37,15 +38,15 @@ class ZodiacPageState extends State<ZodiacPage> {
     return Scaffold(
       backgroundColor: Colors.pink[100],
       appBar: AppBar(
-        title: Text("ชอบที่สุด 10/10"),
-        backgroundColor: Colors.red[300],
+        title: Text("ดาราชายที่ชื่นชอบ"),
+        backgroundColor: Colors.pink[800],
       ),
       body: pokeHub == null
           ? Center(
               child: CircularProgressIndicator(),
             )
           : GridView.count(
-              crossAxisCount: 1,
+              crossAxisCount: 2,
               children: pokeHub.pokemon
                   .map((poke) => Padding(
                         padding: const EdgeInsets.all(2.0),
@@ -54,7 +55,7 @@ class ZodiacPageState extends State<ZodiacPage> {
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => PokeDetail(
+                                    builder: (context) => MaleActor(
                                           pokemon: poke,
                                         )));
                           },
@@ -68,9 +69,9 @@ class ZodiacPageState extends State<ZodiacPage> {
                                 children: <Widget>[
                                   Container(
                                     height: MediaQuery.of(context).size.height *
-                                        0.30,
+                                        0.10,
                                     width: MediaQuery.of(context).size.width *
-                                        0.90,
+                                        0.19,
                                     decoration: BoxDecoration(
                                         image: DecorationImage(
                                             fit: BoxFit.cover,
@@ -85,7 +86,7 @@ class ZodiacPageState extends State<ZodiacPage> {
                                   )
                                 ],
                               ),
-                              color: Colors.white24,
+                              color: Colors.redAccent[100],
                             ),
                           ),
                         ),

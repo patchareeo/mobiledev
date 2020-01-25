@@ -10,23 +10,23 @@ class HaveSeen extends StatelessWidget {
         children: <Widget>[
           Positioned(
             height: MediaQuery.of(context).size.height / 1.5,
-            width: MediaQuery.of(context).size.width - 25,
-            left: 12.0,
-            top: MediaQuery.of(context).size.height * 0.13,
+            width: MediaQuery.of(context).size.width - 15,
+            left: 10.0,
+            top: MediaQuery.of(context).size.height * 0.15,
             child: Card(
               shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(15.0),
+                borderRadius: BorderRadius.circular(2.0),
               ),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
                   SizedBox(
-                    height: 70.0,
+                    height: 80.0,
                   ),
                   Text(
                     pokemon.name,
                     style:
-                        TextStyle(fontSize: 25.0, fontWeight: FontWeight.bold),
+                        TextStyle(fontSize: 25.0, fontWeight: FontWeight.w200),
                   ),
                   Text("เรื่องย่อ  ${pokemon.height}"),
                   Text("....${pokemon.weight}...."),
@@ -52,10 +52,10 @@ class HaveSeen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.red[300],
+      backgroundColor: Colors.blue[200],
       appBar: AppBar(
         elevation: 0.0,
-        backgroundColor: Colors.red[300],
+        backgroundColor: Colors.blue[200],
         title: Text(pokemon.name),
       ),
       body: bodyWidget(context),

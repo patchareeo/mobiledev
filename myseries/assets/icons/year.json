@@ -1,0 +1,236 @@
+{
+  "pokemon": [
+    {
+      "id": 1,
+      "num": "001",
+      "name": "หยาง หยาง",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Yang_profile_pic.jpg/250px-Yang_profile_pic.jpg",
+      "type": [
+        "เกิด 9 กันยายน พ.ศ. 2534"
+      ],
+      "height": "ความสูง / Height : 180 cm",
+      "weight": "อาชีพ : นักแสดง นายแบบ นักร้อง",
+      "candy": "Bulbasaur Candy",
+      "candy_count": 25,
+      "egg": "2 km",
+      "spawn_chance": 0.69,
+      "avg_spawns": 69,
+      "spawn_time": "20:00",
+      "multipliers": [
+        1.58
+      ],
+      "weaknesses": [
+        "ปีที่แสดง : 2552–ปัจจุบัน"
+      ],
+      "next_evolution": [
+        {
+          "num": "001",
+          "name": "สังกัดค่าย : Yue Kai entertainment"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "num": "002",
+      "name": "เฉินซิงซวี",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStphrDl7QjatFZZBroJR031LZu3g1gv8vCJOLJdZefqxeXJTGvPw&s",
+      "type": [
+        "เกิด วันที่ 31 มีนาคม 1996"
+      ],
+      "height": "ความสูง / Height : 186 cm",
+      "weight": "อาชีพ / Occupation : นักแสดง/Actor",
+      "candy": "Bulbasaur Candy",
+      "candy_count": 25,
+      "egg": "2 km",
+      "spawn_chance": 0.69,
+      "avg_spawns": 69,
+      "spawn_time": "20:00",
+      "multipliers": [
+        1.58
+      ],
+      "weaknesses": [
+        "เข้าวงการตั้งเเต่อายุ 3 ขวบ โดยการถ่ายโฆษณา"
+      ],
+      "next_evolution": [
+        {
+          "num": "",
+          "name": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "num": "003",
+      "name": "เซียวจ้าน",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlpq1m3-s7SY3aeu8_L1baU10HBdvHmV1xc8-yOHQFmZLLg8Mc&s",
+      "type": [
+        "เกิดเมื่อ: 5 ตุลาคม 2534"
+      ],
+      "height": "ความสูง: 1.83 ม.",
+      "weight": "อาชีพ : เป็นนักร้องและนักแสดงชาวจีน",
+      "candy": "Bulbasaur Candy",
+      "candy_count": 25,
+      "egg": "2 km",
+      "spawn_chance": 0.69,
+      "avg_spawns": 69,
+      "spawn_time": "20:00",
+      "multipliers": [
+        1.58
+      ],
+      "weaknesses": [
+        "การศึกษา: Chongqing Technology and Business University"
+      ],
+      "next_evolution": [
+        {
+          "num": "",
+          "name": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "num": "004",
+      "name": "หวัง อีปั๋ว",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/%E7%8E%8B%E4%B8%80%E5%8D%9A.jpg/250px-%E7%8E%8B%E4%B8%80%E5%8D%9A.jpg",
+      "type": [
+        "เกิด :  เมื่อวันที่ 5 สิงหาคม 2540"
+      ],
+      "height": "สูง : 180 cm. น้ำหนัก : 60 kg.กรุ๊ปเลือด : A",
+      "weight": "อาชีพ : นักแสดง นักร้อง",
+      "candy": "Bulbasaur Candy",
+      "candy_count": 25,
+      "egg": "2 km",
+      "spawn_chance": 0.69,
+      "avg_spawns": 69,
+      "spawn_time": "20:00",
+      "multipliers": [
+        1.58
+      ],
+      "weaknesses": [
+        "ความสามารถพิเศษ : เต้นแบบ Locking และ Krumping, บีทบ็อกซ์, โยโย่"
+      ],
+      "next_evolution": [
+        {
+          "num": "004",
+          "name": "การศึกษา : Hanlim Multi Art School"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "num": "005",
+      "name": "สวีข่าย",
+      "img": "https://img.monomax.me/unsafe/www.monomax.me/userfiles/picture/Xu-Kai-2.jpg",
+      "type": [
+        "เกิด : 5 มีนาคม 2538 "
+      ],
+      "height": "ความสูง : 1.85 ม.",
+      "weight": "อาชีพ : นักแสดง, นายแบบ",
+      "candy": "Bulbasaur Candy",
+      "candy_count": 25,
+      "egg": "2 km",
+      "spawn_chance": 0.69,
+      "avg_spawns": 69,
+      "spawn_time": "20:00",
+      "multipliers": [
+        1.58
+      ],
+      "weaknesses": [
+        "เข้าวงการ : 2016-ปัจจุบัน"
+      ],
+      "next_evolution": [
+        {
+          "num": "005",
+          "name": "สังกัด Huanyu Film"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "num": "006",
+      "name": " สวีไคเฉิง",
+      "img": "https://obs.line-scdn.net/0hck26QNzwPEQPTxalBLlDEzUZPys8Iy9Ha3ltR1MhYnBwdnwTNHlzcSNNN3UgeXsaZilxISlNJ3UqLXgRZiFz/w644",
+      "type": [
+        "วันเกิด : 8 สิงหาคม 1990"
+      ],
+      "height": "ส่วนสูง : 187 ซม.",
+      "weight": "อาชีพ : นักแสดง",
+      "candy": "Bulbasaur Candy",
+      "candy_count": 25,
+      "egg": "2 km",
+      "spawn_chance": 0.69,
+      "avg_spawns": 69,
+      "spawn_time": "20:00",
+      "multipliers": [
+        1.58
+      ],
+      "weaknesses": [
+        "ปีที่เข้าวงการ : ตั้งแต่ปี 2012"
+      ],
+      "next_evolution": [
+        {
+          "num": "006",
+          "name": "สังกัด : Ming Dao Studio"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "num": "007",
+      "name": "หูอี้เทียน",
+      "img": "https://teen.mthai.com/app/uploads/2017/11/Huyitian-%E0%B8%AB%E0%B8%B9%E0%B8%AD%E0%B8%B5%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B8%A2%E0%B8%99-11.jpg",
+      "type": [
+        "เกิดวันที่ 26 ธันวาคม พ.ศ. 2536"
+      ],
+      "height": "สูง : 188 cm. หนัก : 60 kg.เลือดกรุ๊ป : B",
+      "weight": "อาชีพ : นักแสดง นักร้อง",
+      "candy": "Bulbasaur Candy",
+      "candy_count": 25,
+      "egg": "2 km",
+      "spawn_chance": 0.69,
+      "avg_spawns": 69,
+      "spawn_time": "20:00",
+      "multipliers": [
+        1.58
+      ],
+      "weaknesses": [
+        "นักแสดงสังกัด 华策影视 (Zhejiang Huace Film & TV)"
+      ],
+      "next_evolution": [
+        {
+          "num": "",
+          "name": ""
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "num": "008",
+      "name": "หลินอี",
+      "img": "https://teen.mthai.com/app/uploads/2019/08/Lin-Yi-3.jpg",
+      "type": [
+        "วันเกิด : 11 มกราคม 1999"
+      ],
+      "height": "สูง : 187 ซม. น้ำหนัก : 65 กก.",
+      "weight": "อาชีพ : นักแสดง นักร้อง",
+      "candy": "Bulbasaur Candy",
+      "candy_count": 25,
+      "egg": "2 km",
+      "spawn_chance": 0.69,
+      "avg_spawns": 69,
+      "spawn_time": "20:00",
+      "multipliers": [
+        1.58
+      ],
+      "weaknesses": [
+        "การศึกษา : Beijing Sport University (ด้านการเต้น)"
+      ],
+      "next_evolution": [
+        {
+          "num": "",
+          "name": ""
+        }
+      ]
+    }
+  ]
+}

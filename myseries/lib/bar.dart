@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'Likeis10.dart';
 import 'about.dart';
-import 'seen.dart';
+import 'Seen.dart';
 import 'home.dart';
+import 'Male.dart';
 
 class BarNavy extends StatefulWidget {
   @override
@@ -15,7 +16,8 @@ class _BarNavyState extends State<BarNavy> {
     MyHomePage(),
     ZodiacPage(),
     YearPage(),
-    AboutMePage()
+    AboutMePage(),
+    MalePage()
   ];
   PageController _pageController;
   void onTappedBar(int index) {
@@ -57,6 +59,10 @@ class _BarNavyState extends State<BarNavy> {
           BottomNavigationBarItem(
             title: Text('Year'),
             icon: Icon(Icons.pets),
+          ),
+          BottomNavigationBarItem(
+            title: Text('Me'),
+            icon: Icon(Icons.face),
           ),
           BottomNavigationBarItem(
             title: Text('Me'),

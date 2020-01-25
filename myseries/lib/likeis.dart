@@ -15,7 +15,7 @@ class PokeDetail extends StatelessWidget {
             top: MediaQuery.of(context).size.height * 0.13,
             child: Card(
               shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(15.0),
+                borderRadius: BorderRadius.circular(2.0),
               ),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,

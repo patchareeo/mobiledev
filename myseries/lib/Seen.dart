@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import ' Haveseen.dart';
+import 'package:myseries/%20Haveseen.dart';
 import 'like.dart';
 import 'Haveseen.dart';
 
@@ -14,7 +14,7 @@ class YearPage extends StatefulWidget {
 
 class YearPageState extends State<YearPage> {
   var url =
-      "https://raw.githubusercontent.com/patchareeo/mobiledev/master/myseries/assets/icons/year.json";
+      "https://raw.githubusercontent.com/patchareeo/mobiledev/master/myseries/assets/icons/seen.json";
 
   PokeHub pokeHub;
 
@@ -38,8 +38,8 @@ class YearPageState extends State<YearPage> {
     return Scaffold(
       backgroundColor: Colors.pink[100],
       appBar: AppBar(
-        title: Text("The Year of The Zodiac"),
-        backgroundColor: Colors.pink[800],
+        title: Text("เคยรับชม"),
+        backgroundColor: Colors.orange[300],
       ),
       body: pokeHub == null
           ? Center(
@@ -86,7 +86,7 @@ class YearPageState extends State<YearPage> {
                                   )
                                 ],
                               ),
-                              color: Colors.redAccent[100],
+                              color: Colors.deepOrangeAccent[100],
                             ),
                           ),
                         ),
