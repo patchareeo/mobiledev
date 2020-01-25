@@ -1,0 +1,208 @@
+{
+  "pokemon": [
+    {
+      "id": 1,
+      "num": "001",
+      "name": "จ้าวลี่อิง",
+      "img": "https://sudsapda.com/app/uploads/2018/07/07d7-fzvpatq6354195-e1531803812715.jpg",
+      "type": [
+        "เกิด : 16 ตุลาคม ค.ศ. 1987"
+      ],
+      "height": "ส่วนสูง : 165",
+      "weight": "อาชีพ : นักแสดง",
+      "candy": "Bulbasaur Candy",
+      "candy_count": 25,
+      "egg": "2 km",
+      "spawn_chance": 0.69,
+      "avg_spawns": 69,
+      "spawn_time": "20:00",
+      "multipliers": [
+        1.58
+      ],
+      "weaknesses": [
+        "คู่สมรส : เฝิง เส้าเฟิง(2561–ปัจจุบัน)"
+      ],
+      "next_evolution": [
+        {
+          "num": "001",
+          "name": "ปีที่แสดง : 2549–ปัจจุบัน"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "num": "002",
+      "name": "หยาง มี่",
+      "img": "https://praew.com/app/uploads/2018/09/146481.jpg",
+      "type": [
+        "เกิดเมื่อ: 12 กันยายน 2529"
+      ],
+      "height": "ส่วนสูง : 167",
+      "weight": "อาชีพ : นักแสดง",
+      "candy": "Bulbasaur Candy",
+      "candy_count": 25,
+      "egg": "2 km",
+      "spawn_chance": 0.69,
+      "avg_spawns": 69,
+      "spawn_time": "20:00",
+      "multipliers": [
+        1.58
+      ],
+      "weaknesses": [
+        "บุตร: หลิว นั่วหมี่"
+      ],
+      "next_evolution": [
+        {
+          "num": "002",
+          "name": "ปีที่แสดง: พ.ศ. 2535 - ปัจจุบัน"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "num": "003",
+      "name": "ตี่ลี่เร่อปา",
+      "img": "https://teen.mthai.com/app/uploads/2017/11/%E0%B8%95%E0%B8%B5%E0%B9%88%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B9%80%E0%B8%A3%E0%B9%88%E0%B8%AD%E0%B8%9B%E0%B8%B2-16.jpg",
+      "type": [
+        "วันเกิด : 3 มิถุนายน 1992"
+      ],
+      "height": "ส่วนสูง : 170",
+      "weight": "อาชีพ : นักแสดง นักร้องง",
+      "candy": "Bulbasaur Candy",
+      "candy_count": 25,
+      "egg": "2 km",
+      "spawn_chance": 0.69,
+      "avg_spawns": 69,
+      "spawn_time": "20:00",
+      "multipliers": [
+        1.58
+      ],
+      "weaknesses": [
+        "การศึกษา : มหาวิทยาลัยการแสดงเซี่ยงไฮ้"
+      ],
+      "next_evolution": [
+        {
+          "num": "003",
+          "name": "ศาสนา : นับถือศาสนาอิสลาม"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "num": "004",
+      "name": "เผิงเสี่ยวหรัน ",
+      "img": "https://i.pinimg.com/236x/21/22/69/21226948044ca964b8dfd8a0967af5b4.jpg",
+      "type": [
+        "เกิด 3 ธค. 1990"
+      ],
+      "height": "ส่วนสูง : 167",
+      "weight": "อาชีพ : นักแสดง",
+      "candy": "Bulbasaur Candy",
+      "candy_count": 25,
+      "egg": "2 km",
+      "spawn_chance": 0.69,
+      "avg_spawns": 69,
+      "spawn_time": "20:00",
+      "multipliers": [
+        1.58
+      ],
+      "weaknesses": [
+        "ราศีธนู"
+      ],
+      "next_evolution": [
+        {
+          "num": "004",
+          "name": "เข้าวงการปี 2013 "
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "num": "005",
+      "name": "ไป๋ลู่",
+      "img": "https://i.pinimg.com/736x/37/8a/a3/378aa341b6e3d96c25a99a50b38a5574.jpg",
+      "type": [
+        "เกิด : 23 กันยายน 1994"
+      ],
+      "height": "ส่วนสูง : 165 cm. น้ำหนัก : 47 kg.",
+      "weight": "อาชีพ : นักแสดง",
+      "candy": "Bulbasaur Candy",
+      "candy_count": 25,
+      "egg": "2 km",
+      "spawn_chance": 0.69,
+      "avg_spawns": 69,
+      "spawn_time": "20:00",
+      "multipliers": [
+        1.58
+      ],
+      "weaknesses": [
+        "เข้าวงการปี 2016"
+      ],
+      "next_evolution": [
+        {
+          "num": "005",
+          "name": "ชื่อเดิม ไป๋เมิงเหยียน"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "num": "006",
+      "name": "จ้าว ลูซือ",
+      "img": "https://praew.com/app/uploads/2019/04/640.webp-31-1.jpg",
+      "type": [
+        "เกิด : 20 พฤศจิกายน พ.ศ. 2541"
+      ],
+      "height": "ส่วนสูง : 165 cm.",
+      "weight": "อาชีพ : นักแสดง นักร้อง",
+      "candy": "Bulbasaur Candy",
+      "candy_count": 25,
+      "egg": "2 km",
+      "spawn_chance": 0.69,
+      "avg_spawns": 69,
+      "spawn_time": "20:00",
+      "multipliers": [
+        1.58
+      ],
+      "weaknesses": [
+        "จบจาก มหาวิทยาลัยหมิงเต้า"
+      ],
+      "next_evolution": [
+        {
+          "num": "006",
+          "name": "ปีที่แสดง : 2559–ปัจจุบัน"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "num": "007",
+      "name": "หลิว อี้เฟย์",
+      "img": "https://img-ha.mthcdn.com/31Q8cwlUN8uBaf41lFqDrrvoApw=/campus.campus-star.com/app/uploads/2019/07/Liu-Yi-Fei-2.jpg",
+      "type": [
+        "เกิด: 25 สิงหาคม พ.ศ. 2530"
+      ],
+      "height": "ความสูง: 170 ซม น้ำหนัก: 48 กิโลกรัม",
+      "weight": "อาชีพ: นักแสดงหญิง, นักร้อง และนางแบบ",
+      "candy": "Bulbasaur Candy",
+      "candy_count": 25,
+      "egg": "2 km",
+      "spawn_chance": 0.69,
+      "avg_spawns": 69,
+      "spawn_time": "20:00",
+      "multipliers": [
+        1.58
+      ],
+      "weaknesses": [
+        "กรุ๊ปเลือด: B",
+        "ราศี: กันย์"
+      ],
+      "next_evolution": [
+        {
+          "num": "007",
+          "name": "ปีที่แสดง 2003-ปัจจุบัน"
+        }
+      ]
+    }
+  ]
+}

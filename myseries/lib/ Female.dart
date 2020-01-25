@@ -1,20 +1,20 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import ' maleactor.dart';
+import ' femaleactor.dart';
 import 'like.dart';
-import 'maleactor.dart';
+import 'femaleactor.dart';
 
-class MalePage extends StatefulWidget {
+class FemalePage extends StatefulWidget {
   @override
-  MalePageState createState() {
-    return new MalePageState();
+  FemalePageState createState() {
+    return new FemalePageState();
   }
 }
 
-class MalePageState extends State<MalePage> {
+class FemalePageState extends State<FemalePage> {
   var url =
-      "https://raw.githubusercontent.com/patchareeo/mobiledev/master/myseries/assets/icons/male.json";
+      "https://raw.githubusercontent.com/chadaporn29797/tiktry/master/year.json";
 
   PokeHub pokeHub;
 
@@ -38,8 +38,8 @@ class MalePageState extends State<MalePage> {
     return Scaffold(
       backgroundColor: Colors.pink[100],
       appBar: AppBar(
-        title: Text("ดาราชายที่ชื่นชอบ"),
-        backgroundColor: Colors.grey[350],
+        title: Text("ดาราหญิงที่ชื่นชอบ"),
+        backgroundColor: Colors.green[200],
       ),
       body: pokeHub == null
           ? Center(
@@ -55,7 +55,7 @@ class MalePageState extends State<MalePage> {
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => MaleActor(
+                                    builder: (context) => FemalActor(
                                           pokemon: poke,
                                         )));
                           },
@@ -86,7 +86,7 @@ class MalePageState extends State<MalePage> {
                                   )
                                 ],
                               ),
-                              color: Colors.yellowAccent[100],
+                              color: Colors.deepPurple[100],
                             ),
                           ),
                         ),
