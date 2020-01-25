@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'Zodiac.dart';
+import 'Likeis10.dart';
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);

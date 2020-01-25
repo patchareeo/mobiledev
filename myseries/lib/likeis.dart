@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'rasi.dart';
+import 'like.dart';
 
 class PokeDetail extends StatelessWidget {
   final Pokemon pokemon;
@@ -30,19 +30,6 @@ class PokeDetail extends StatelessWidget {
                   ),
                   Text("รีวิวจากใจ ${pokemon.height}"),
                   Text("....${pokemon.weight}...."),
-                  // Text(
-                  //   "สีที่ถูกโฉลก",
-                  //   style: TextStyle(fontWeight: FontWeight.bold),
-                  // ),
-                  // Row(
-                  //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  //   children: pokemon.type
-                  //       .map((t) => FilterChip(
-                  //           backgroundColor: Colors.amber,
-                  //           label: Text(t),
-                  //           onSelected: (b) {}))
-                  //       .toList(),
-                  // ),
                   Text("นักแสดงนำ",
                       style: TextStyle(fontWeight: FontWeight.bold)),
                   Row(
@@ -57,23 +44,6 @@ class PokeDetail extends StatelessWidget {
                             onSelected: (b) {}))
                         .toList(),
                   ),
-                  // Text("ดาวประจำราศี",
-                  //     style: TextStyle(fontWeight: FontWeight.bold)),
-                  // Row(
-                  //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  //   children: pokemon.nextEvolution == null
-                  //       ? <Widget>[Text("This is the final form")]
-                  //       : pokemon.nextEvolution
-                  //           .map((n) => FilterChip(
-                  //                 backgroundColor: Colors.green,
-                  //                 label: Text(
-                  //                   n.name,
-                  //                   style: TextStyle(color: Colors.white),
-                  //                 ),
-                  //                 onSelected: (b) {},
-                  //               ))
-                  //           .toList(),
-                  // )
                 ],
               ),
             ),

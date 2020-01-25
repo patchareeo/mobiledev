@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'Zodiac.dart';
+import 'Likeis10.dart';
 import 'about.dart';
-import 'Year.dart';
+import 'seen.dart';
 import 'home.dart';
 
 class BarNavy extends StatefulWidget {

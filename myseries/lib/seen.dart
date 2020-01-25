@@ -1,8 +1,9 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'rasi.dart';
-import 'yeardetail.dart';
+import ' Haveseen.dart';
+import 'like.dart';
+import 'Haveseen.dart';
 
 class YearPage extends StatefulWidget {
   @override
@@ -54,7 +55,7 @@ class YearPageState extends State<YearPage> {
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => YearDetail(
+                                    builder: (context) => HaveSeen(
                                           pokemon: poke,
                                         )));
                           },
