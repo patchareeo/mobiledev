@@ -39,8 +39,8 @@ class HaveSeen extends StatelessWidget {
             child: Hero(
                 tag: pokemon.img,
                 child: Container(
-                  height: 190.0,
-                  width: 190.0,
+                  height: 200.0,
+                  width: 300.0,
                   decoration: BoxDecoration(
                       image: DecorationImage(
                           fit: BoxFit.cover, image: NetworkImage(pokemon.img))),
@@ -52,10 +52,10 @@ class HaveSeen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue[200],
+      backgroundColor: Colors.white,
       appBar: AppBar(
         elevation: 0.0,
-        backgroundColor: Colors.blue[200],
+        backgroundColor: Colors.red[100],
         title: Text(pokemon.name),
       ),
       body: bodyWidget(context),

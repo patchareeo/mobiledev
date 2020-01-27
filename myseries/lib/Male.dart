@@ -39,7 +39,7 @@ class MalePageState extends State<MalePage> {
       backgroundColor: Colors.pink[100],
       appBar: AppBar(
         title: Text("ดาราชายที่ชื่นชอบ"),
-        backgroundColor: Colors.grey[350],
+        backgroundColor: Colors.redAccent[100],
       ),
       body: pokeHub == null
           ? Center(
@@ -86,7 +86,7 @@ class MalePageState extends State<MalePage> {
                                   )
                                 ],
                               ),
-                              color: Colors.yellowAccent[100],
+                              color: Colors.pink[50],
                             ),
                           ),
                         ),

@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:myseries/%20Haveseen.dart';
 import 'like.dart';
-import 'Haveseen.dart';
 
 class YearPage extends StatefulWidget {
   @override
@@ -39,7 +38,7 @@ class YearPageState extends State<YearPage> {
       backgroundColor: Colors.pink[100],
       appBar: AppBar(
         title: Text("เคยรับชม"),
-        backgroundColor: Colors.orange[300],
+        backgroundColor: Colors.red[300],
       ),
       body: pokeHub == null
           ? Center(
@@ -69,9 +68,9 @@ class YearPageState extends State<YearPage> {
                                 children: <Widget>[
                                   Container(
                                     height: MediaQuery.of(context).size.height *
-                                        0.30,
+                                        0.35,
                                     width: MediaQuery.of(context).size.width *
-                                        0.90,
+                                        0.99,
                                     decoration: BoxDecoration(
                                         image: DecorationImage(
                                             fit: BoxFit.cover,
@@ -86,7 +85,7 @@ class YearPageState extends State<YearPage> {
                                   )
                                 ],
                               ),
-                              color: Colors.deepOrangeAccent[100],
+                              color: Colors.deepOrange[100],
                             ),
                           ),
                         ),

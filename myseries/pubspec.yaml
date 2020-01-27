@@ -22,8 +22,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_launcher_icons: "^0.7.4"
-  splashscreen: "^1.2.0"
+
 
   flutter_launcher_name: "^0.0.1"
 flutter_launcher_name:
@@ -41,7 +40,11 @@ flutter:
   uses-material-design: true
 
   assets:
+    - assets/icons/Love2.png
+    #- assets/icons/Love3.png
     - assets/icons/thisLove.png
+    - assets/icons/Love.png
+    - assets/icons/girl.png
 
 
 cupertino_icons: ^0.1.2  

@@ -12,7 +12,7 @@ class MaleActor extends StatelessWidget {
             height: MediaQuery.of(context).size.height / 1.5,
             width: MediaQuery.of(context).size.width - 25,
             left: 12.0,
-            top: MediaQuery.of(context).size.height * 0.15,
+            top: MediaQuery.of(context).size.height * 0.18,
             child: Card(
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(2.0),
@@ -47,7 +47,7 @@ class MaleActor extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: pokemon.nextEvolution == null
-                        ? <Widget>[Text("This is the final form")]
+                        ? <Widget>[Text("ดาราชายที่ชื่นชอบ")]
                         : pokemon.nextEvolution
                             .map((n) => FilterChip(
                                   backgroundColor: Colors.white,
@@ -82,7 +82,7 @@ class MaleActor extends StatelessWidget {
             child: Hero(
                 tag: pokemon.img,
                 child: Container(
-                  height: 190.0,
+                  height: 250.0,
                   width: 190.0,
                   decoration: BoxDecoration(
                       image: DecorationImage(
@@ -95,10 +95,10 @@ class MaleActor extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.orangeAccent,
+      backgroundColor: Colors.white,
       appBar: AppBar(
         elevation: 0.0,
-        backgroundColor: Colors.orangeAccent,
+        backgroundColor: Colors.red[100],
         title: Text(pokemon.name),
       ),
       body: bodyWidget(context),

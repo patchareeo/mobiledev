@@ -15,10 +15,10 @@ class BarNavy extends StatefulWidget {
 class _BarNavyState extends State<BarNavy> {
   int _selectedIndex = 0;
   final List<Widget> _children = [
-    MyHomePage(),
-    ZodiacPage(),
+    // IntroScreen(),
+    HomePage(),
+    LikePage(),
     YearPage(),
-    AboutMePage(),
     MalePage(),
     FemalePage()
   ];
@@ -52,28 +52,29 @@ class _BarNavyState extends State<BarNavy> {
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: Color(0xffffcc5c),
         currentIndex: _selectedIndex,
-        selectedItemColor: Colors.amber[800],
+        selectedItemColor: Colors.pinkAccent,
         unselectedItemColor: Colors.blueGrey,
         onTap: onTappedBar,
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(title: Text('Home'), icon: Icon(Icons.home)),
+          // BottomNavigationBarItem(
+          //   title: Text('Me'),
+          //   icon: Icon(Icons.insert_emoticon),
+          // ),
           BottomNavigationBarItem(
-              title: Text('ชอบที่สุด 10/10'), icon: Icon(Icons.star)),
+              title: Text('ชอบที่สุด 10/10'),
+              icon: Icon(Icons.favorite_border)),
           BottomNavigationBarItem(
             title: Text('เคยรับชม'),
-            icon: Icon(Icons.pets),
-          ),
-          BottomNavigationBarItem(
-            title: Text('Me'),
-            icon: Icon(Icons.face),
+            icon: Icon(Icons.filter_none),
           ),
           BottomNavigationBarItem(
             title: Text('ดาราชายที่ชื่นชอบ'),
-            icon: Icon(Icons.face),
+            icon: Icon(Icons.people_outline),
           ),
           BottomNavigationBarItem(
             title: Text('ดาราหญิงที่ชื่นชอบ'),
-            icon: Icon(Icons.face),
+            icon: Icon(Icons.wc),
           ),
         ],
       ),

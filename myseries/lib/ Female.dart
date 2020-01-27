@@ -14,7 +14,7 @@ class FemalePage extends StatefulWidget {
 
 class FemalePageState extends State<FemalePage> {
   var url =
-      "https://raw.githubusercontent.com/chadaporn29797/tiktry/master/year.json";
+      "https://raw.githubusercontent.com/patchareeo/mobiledev/master/myseries/assets/icons/female.json";
 
   PokeHub pokeHub;
 
@@ -39,7 +39,7 @@ class FemalePageState extends State<FemalePage> {
       backgroundColor: Colors.pink[100],
       appBar: AppBar(
         title: Text("ดาราหญิงที่ชื่นชอบ"),
-        backgroundColor: Colors.green[200],
+        backgroundColor: Colors.redAccent[100],
       ),
       body: pokeHub == null
           ? Center(
@@ -86,7 +86,7 @@ class FemalePageState extends State<FemalePage> {
                                   )
                                 ],
                               ),
-                              color: Colors.deepPurple[100],
+                              color: Colors.pink[50],
                             ),
                           ),
                         ),

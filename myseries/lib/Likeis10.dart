@@ -4,14 +4,14 @@ import 'package:http/http.dart' as http;
 import 'like.dart';
 import 'likeis.dart';
 
-class ZodiacPage extends StatefulWidget {
+class LikePage extends StatefulWidget {
   @override
-  ZodiacPageState createState() {
-    return new ZodiacPageState();
+  LikePageState createState() {
+    return new LikePageState();
   }
 }
 
-class ZodiacPageState extends State<ZodiacPage> {
+class LikePageState extends State<LikePage> {
   var url =
       "https://raw.githubusercontent.com/patchareeo/mobiledev/master/myseries/assets/icons/like.json";
 
@@ -68,9 +68,9 @@ class ZodiacPageState extends State<ZodiacPage> {
                                 children: <Widget>[
                                   Container(
                                     height: MediaQuery.of(context).size.height *
-                                        0.30,
+                                        0.35,
                                     width: MediaQuery.of(context).size.width *
-                                        0.90,
+                                        0.99,
                                     decoration: BoxDecoration(
                                         image: DecorationImage(
                                             fit: BoxFit.cover,
@@ -85,7 +85,7 @@ class ZodiacPageState extends State<ZodiacPage> {
                                   )
                                 ],
                               ),
-                              color: Colors.white24,
+                              color: Colors.deepOrange[100],
                             ),
                           ),
                         ),
