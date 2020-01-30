@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import ' Female.dart';
 import 'Likeis10.dart';
-import 'about.dart';
 import 'Seen.dart';
 import 'home.dart';
 import 'Male.dart';
@@ -15,7 +14,6 @@ class BarNavy extends StatefulWidget {
 class _BarNavyState extends State<BarNavy> {
   int _selectedIndex = 0;
   final List<Widget> _children = [
-    // IntroScreen(),
     HomePage(),
     LikePage(),
     YearPage(),
@@ -41,10 +39,6 @@ class _BarNavyState extends State<BarNavy> {
     super.dispose();
   }
 
-// onItemSelected: (index) {
-//           setState(() => _selectedIndex = index);
-//           _pageController.jumpToPage(index);
-//         },
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -57,10 +51,6 @@ class _BarNavyState extends State<BarNavy> {
         onTap: onTappedBar,
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(title: Text('Home'), icon: Icon(Icons.home)),
-          // BottomNavigationBarItem(
-          //   title: Text('Me'),
-          //   icon: Icon(Icons.insert_emoticon),
-          // ),
           BottomNavigationBarItem(
               title: Text('ชอบที่สุด 10/10'),
               icon: Icon(Icons.favorite_border)),

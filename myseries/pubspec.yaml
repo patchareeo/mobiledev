@@ -41,7 +41,7 @@ flutter:
 
   assets:
     - assets/icons/Love2.png
-    #- assets/icons/Love3.png
+    - assets/icons/wellcome.png
     - assets/icons/thisLove.png
     - assets/icons/Love.png
     - assets/icons/girl.png
