@@ -69,9 +69,9 @@ class MalePageState extends State<MalePage> {
                                 children: <Widget>[
                                   Container(
                                     height: MediaQuery.of(context).size.height *
-                                        0.40,
+                                        0.30,
                                     width: MediaQuery.of(context).size.width *
-                                        0.60,
+                                        0.45,
                                     decoration: BoxDecoration(
                                         image: DecorationImage(
                                             fit: BoxFit.cover,
@@ -80,7 +80,7 @@ class MalePageState extends State<MalePage> {
                                   Text(
                                     poke.name,
                                     style: TextStyle(
-                                      fontSize: 15.0,
+                                      fontSize: 20.0,
                                       fontWeight: FontWeight.bold,
                                     ),
                                   )

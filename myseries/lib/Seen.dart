@@ -68,7 +68,7 @@ class YearPageState extends State<YearPage> {
                                 children: <Widget>[
                                   Container(
                                     height: MediaQuery.of(context).size.height *
-                                        0.35,
+                                        0.30,
                                     width: MediaQuery.of(context).size.width *
                                         0.99,
                                     decoration: BoxDecoration(
@@ -79,7 +79,7 @@ class YearPageState extends State<YearPage> {
                                   Text(
                                     poke.name,
                                     style: TextStyle(
-                                      fontSize: 15.0,
+                                      fontSize: 20.0,
                                       fontWeight: FontWeight.bold,
                                     ),
                                   )
